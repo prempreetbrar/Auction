@@ -2,6 +2,10 @@
 
 A multithreaded auction program which simulates an auction using a thread for each bidder, displaying the live results of the auction; the winner is shown at the end of the auction, with ties broken based on which bidder submitted their bid faster.
 
+## Demo of the Program:
+
+![](auction_demo.gif)
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -66,9 +70,7 @@ gcc auction.c -o auction -pthread
 - You can see the progress of each bidder as an arrow (these arrows move as the bidder's change their bids); an arrow terminated with a > indicates that the bidder has not yet made a final bid, while an arrow terminated with a * indicates that the bidder has made their final bid.
 - The auction winner is the bidder with the highest bid value, with ties broken by smallest bid time.
 
-## Demo of the Program:
 
-![](auction_demo.gif)
 
 ## Limitations/Design Choices
 
