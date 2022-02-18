@@ -11,7 +11,7 @@ A multithreaded auction program which simulates an auction using a thread for ea
 
 ### If you are on MacOS/Linux
 
-1. Ensure you have gcc installed by writing ```gcc -v``` in the terminal; **Note: on MacOS, it may show the clang or clang++ compilation tools when you write this. That will also work.** If you don't have gcc, install gcc by writing
+1. Ensure you have gcc installed by writing ```gcc -v``` in the terminal; **Note: on MacOS, it may show the clang or clang++ compilation tools when you write this. If that is the case, you do NOT need to install gcc.** If you don't have gcc, install gcc by writing
 
 ```
 export HOMEBREW_NO_ANALYTICS=1
