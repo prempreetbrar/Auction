@@ -4,7 +4,7 @@ A multithreaded auction program which simulates an auction using a thread for ea
 
 ## Demo of the Program:
 
-![]
+![auction_demo.gif]
 
 &nbsp;
 &nbsp;
