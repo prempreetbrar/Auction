@@ -40,7 +40,6 @@ gcc auction.c -o auction -pthread
 &nbsp;
 &nbsp;
 
-
 ### If you are on Windows
 
 1. **Note: gcc installation on Windows is cumbersome.** Check if you have gcc installed by writing ```gcc --version``` in the command prompt. If you don't have gcc installed, copy and paste the code from auction.c in this [online IDE](https://replit.com/languages/C). The online IDE allows you to execute your code with the click of a button, so the following steps are for those who are running the code in their PC's terminal.
@@ -69,9 +68,3 @@ gcc auction.c -o auction -pthread
 - Each bidder thread enters several bids (bid value is chosen randomly), and every time a bid is made, there is a 50/50 chance of it being committed. Once a bid is committed, the bidder thread terminates.
 - You can see the progress of each bidder as an arrow (these arrows move as the bidder's change their bids); an arrow terminated with a > indicates that the bidder has not yet made a final bid, while an arrow terminated with a * indicates that the bidder has made their final bid.
 - The auction winner is the bidder with the highest bid value, with ties broken by smallest bid time.
-
-
-
-## Limitations/Design Choices
-
-
