@@ -32,7 +32,9 @@ gcc auction.c -o auction -pthread
 ./auction
 ```
 
-
+&nbsp;
+&nbsp;
+&nbsp;
 
 
 ### If you are on Windows
